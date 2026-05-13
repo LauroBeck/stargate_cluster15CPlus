@@ -1,43 +1,30 @@
 #include <iostream>
-#include <string>
-#include <vector>
 #include <iomanip>
+#include <string>
 
 /**
- * @file TrinitySignalEngine.cpp
- * @brief Stargate Cluster Core: Buy Signal Confirmation Logic
+ * @file TRINITY_SIGNAL_ENGINE.CPP
+ * @brief Reconciles Cloud, Hardware, and Market Indices
  * @author Lauro Sergio Vasconcellos Beck
  */
 
-struct MarketTelemetry {
-    double nvda_revenue_bn = 215.9;       //
-    double anthropic_val_bn = 900.0;     // Target valuation
-    double samsung_price_krw = 268500.0; // Intraday price (-3.94%)
-};
-
-class StargateHub {
-public:
-    void executeUnionJoint(const MarketTelemetry& data) {
-        std::cout << "--- STARGATE HUB: SIGNAL CONFIRMATION ---" << std::endl;
-        
-        bool nvda_check = (data.nvda_revenue_bn >= 200.0);
-        bool anthropic_check = (data.anthropic_val_bn >= 800.0);
-        bool samsung_check = (data.samsung_price_krw <= 270000.0);
-
-        if (nvda_check && anthropic_check && samsung_check) {
-            std::cout << "STATUS: [BUY SIGNAL CONFIRMED]" << std::endl;
-            std::cout << "TRINITY SYNC: [NVDA|ANTH|SSNLF] LOCKED" << std::endl;
-        } else {
-            std::cout << "STATUS: [SIGNAL INSUFFICIENT]" << std::endl;
-        }
-    }
-};
-
 int main() {
-    MarketTelemetry current_data;
-    StargateHub hub;
+    double spx_price = 7400.96;
+    double nvda_price = 220.78;
+    double orcl_growth = 42.0;
+
+    std::cout << "\n>>> STARGATE TRINITY SIGNAL: ONLINE <<<" << std::endl;
+    std::cout << "-----------------------------------------------" << std::endl;
+    std::cout << "S&P 500 NODE      | " << std::fixed << std::setprecision(2) << spx_price << " | STATUS: BULL_TRAJECTORY" << std::endl;
+    std::cout << "NVIDIA KERNEL     | " << nvda_price << " | STATUS: COMPUTE_PEAK" << std::endl;
+    std::cout << "ORACLE CLOUD      | " << std::setprecision(1) << orcl_growth << "% | STATUS: ALPHA_SOURCE" << std::endl;
+    std::cout << "-----------------------------------------------" << std::endl;
     
-    hub.executeUnionJoint(current_data);
+    if (spx_price >= 7400.00) {
+        std::cout << "TARGET: 7,500 TRAJECTORY SUSTAINED" << std::endl;
+    } else {
+        std::cout << "TARGET: RE-CALIBRATING BUOYANCY" << std::endl;
+    }
     
     return 0;
 }
