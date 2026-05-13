@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/OracleCplus_BBAS_node.dir/link.d CMakeFiles/OracleCplus_BBAS_node.dir/STARGATE_BANKING_TEMPLATE.CPP.o -o bin/OracleCplus_BBAS_node

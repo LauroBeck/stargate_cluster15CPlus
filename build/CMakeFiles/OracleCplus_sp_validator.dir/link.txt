@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/OracleCplus_sp_validator.dir/link.d CMakeFiles/OracleCplus_sp_validator.dir/SAO_PAULO_IPCA_VALIDATOR.CPP.o -o bin/OracleCplus_sp_validator

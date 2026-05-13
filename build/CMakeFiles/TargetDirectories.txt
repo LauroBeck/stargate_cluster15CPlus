@@ -1,0 +1,17 @@
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_BNY_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_JPM_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_MS_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_WFC_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_NU_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_C6_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_BAC_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_ITUB_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_BTG_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_BBAS_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_C_node.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_bloomberg_v1.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_bloomberg_v2.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_sp_validator.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/OracleCplus_trinity_engine.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/edit_cache.dir
+/home/laurobeck/StargateOracle/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/OracleCplus_trinity_engine.dir/link.d CMakeFiles/OracleCplus_trinity_engine.dir/TRINITY_SIGNAL_ENGINE.CPP.o -o bin/OracleCplus_trinity_engine

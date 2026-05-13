@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/OracleCplus_bloomberg_v1.dir/link.d CMakeFiles/OracleCplus_bloomberg_v1.dir/BLOOMBERG_BQL_VALIDATION.CPP.o -o bin/OracleCplus_bloomberg_v1
